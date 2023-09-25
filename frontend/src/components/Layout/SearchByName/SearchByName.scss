@@ -1,0 +1,25 @@
+.content-btnSearch {
+    height: 100%;
+    width: 15%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.content-box {
+    background-color: #FFFFFF;
+    width: 30%;
+    left: 64%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5%;
+    height: 48px;
+}
+
+input {
+    height: 100%;
+    width: 15%;
+    background: #FFFFFF;
+    border: none;
+}

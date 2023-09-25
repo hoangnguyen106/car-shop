@@ -1,0 +1,68 @@
+.product-detail {
+  margin-top: 2%;
+}
+.product-return {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  letter-spacing: 0.35px;
+
+  /* Blue */
+
+  color: #00ADE8;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-returnText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  letter-spacing: 0.35px;
+
+  /* Blue */
+
+  color: #00ADE8;
+
+}
+
+.detail-name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  letter-spacing: 0.35px;
+
+  /* Neutral/Darkest Grey */
+
+  color: #171B2F;
+}
+
+.detail-category,
+.detail-manufacturer,
+.detail-description {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  letter-spacing: 0.35px;
+  text-transform: capitalize;
+
+  color: #000000;
+}

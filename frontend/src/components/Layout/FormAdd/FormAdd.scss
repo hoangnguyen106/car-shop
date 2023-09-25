@@ -1,0 +1,26 @@
+.btn-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-cancel, .btn-add{
+    width: 140px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding: 10px;
+    /* Primary/ Blue */
+    &.btn-cancel {
+        margin-right: 10px;
+        border: 1px solid #00ADE8;
+        border-radius: 40px;
+    }
+    &.btn-add {
+        background: #00CCFF;
+        border-radius: 40px;
+    }
+}
+
+
+  

@@ -1,0 +1,72 @@
+.content-container {
+    position: absolute;
+    display: flex;
+    height: calc(100% - 64px);
+    width: 74%;
+    left: 26%;
+}
+
+.content-search {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width-content);
+    top: 5%;
+}
+
+.content-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(188, 190, 198, 0.4);
+
+    input {
+        flex: 1;
+        height: 100%;
+        color: #62677A;
+        opacity: 0.5;
+        font-size: 1.4rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+
+.content-btnAddProduct {
+    height: 48px;
+    width: 16%;
+    padding: 4px 4px;
+    background-color: transparent;
+    color: #00CCFF;
+    border: 1px solid #00CCFF;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.content-btnSearch {
+    height: 100%;
+    width: 15%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.content-list {
+    position: absolute;
+    width: var(--width-content);
+    height: calc(100% - 20%);
+    top: 17%;
+    margin-right: 3%;
+    background: green;
+    border-radius: 20px;
+}
